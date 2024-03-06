@@ -1,8 +1,5 @@
-COMP 30040&30030
-Third Year Project - UOM
 Robust Reinforcement Learning for Drones Control under Gusting Conditions
 
-This .zip archive contains the Code of my Third Year Project.
 The code can be used to train a new model, but several limitations should be noted:
 1) Speed - the training process can take up to 48h, depending on the hardware. Significant results may not appear even after 20h of training.
 2) CPU intensivity - the model trains solely on the CPU so please note that this can lead to significant performance decrease and unstable system.
@@ -13,5 +10,3 @@ Sometimes the process can require too much RAM and if it is left usupervised, th
 
 The used Hardware for the project is an Optitrack Motioncapture system, Crazyflie 2.1 drones with Single marker, Crazyflie Radio and the Crazyswarm library.
 Note: During the development of the project the library Crazyswarm was declared as deprecated and work began on Crazyswarm 2. Unfortunately, Crazyswarm 2 was declared stable and open for the public in January 2023, which was too late for such a signifacant change. The team behind Crazyswarm 2 is promising backwards compatability, but due to the project being still in early stages of development, this is not guaranteed. If running the trained model experimentaly on drones in the real world, please take care of this note. 
-
-Thanks!
